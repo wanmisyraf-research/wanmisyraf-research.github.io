@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Wan M Isyraf"
-  avatar           : assets\images\Profile Pic.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : assets/images/Profile Pic.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   email            : "wmisyraf02@gmail.com"
 
