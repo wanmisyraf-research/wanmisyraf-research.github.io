@@ -2,8 +2,9 @@
 layout: home
 classes: wide
 author_profile: true
+title: "Who am I ?"
 ---
-# Who am I ?
+
 ## Introduction
 I am a Software Development Engineer at SanDisk, focusing on Machine Learning and Data Science for Digital Twins of Packaging technologies.
 
