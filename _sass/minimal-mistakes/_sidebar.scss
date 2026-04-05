@@ -124,23 +124,23 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 36px;  /* Must match Height */
+  height: 36px; /* Must match Width */
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 200px; /* Adjust to your preferred desktop size */
+    height: 200px;
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    image-rendering: high-quality;
+    shape-outside: circle();
+    width: 100%;    /* Fills the square container */
+    height: 100%;   /* Fills the square container */
+    
+    border-radius: 50%; /* Makes the perfect square a perfect circle */
 
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
   }
 }
 
